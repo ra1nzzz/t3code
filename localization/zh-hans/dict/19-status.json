@@ -1,0 +1,23 @@
+{
+  "HEALTHY": "健康",
+  "healthy": "健康",
+  "UNHEALTHY": "异常",
+  "unhealthy": "异常",
+  "DEGRADED": "降级",
+  "degraded": "降级",
+  "OFFLINE": "离线",
+  "offline": "离线",
+  "ONLINE": "在线",
+  "online": "在线",
+  "process": "个进程",
+  "Connect an environment to see diagnostics.": "连接环境后即可查看诊断信息。",
+  "Unknown thermal state": "未知温度状态",
+  "Native process monitor": "原生进程监控",
+  "T3 system footprint": "T3 系统占用",
+  "Updated": "更新于",
+  "Sampled every": "采样间隔",
+  "PID + start time": "PID + 启动时间",
+  "Logical bytes by operation": "按操作统计的逻辑字节数",
+  "Read Total": "读取总量",
+  "Write Total": "写入总量"
+}

@@ -1,0 +1,17 @@
+{
+  "WARN": "WARN",
+  "INFO": "INFO",
+  "BitbucketApi.responseError": "BitbucketApi.responseError",
+  "BitbucketResponseError": "BitbucketResponseError",
+  "HttpClientError": "HttpClientError",
+  "ProcessSpawnError": "ProcessSpawnError",
+  "VcsProcessSpawnError": "VcsProcessSpawnError",
+  "VcsProcess.run": "VcsProcess.run",
+  "VcsProcess.runUnbounded": "VcsProcess.runUnbounded",
+  "processRunner.runProcessCore": "processRunner.runProcessCore",
+  "ForgejoSourceControlProvider.discovery": "ForgejoSourceControlProvider.discovery",
+  "ConnectReachability.check": "ConnectReachability.check",
+  "Codex did not refresh its model catalog in time; using the cached catalog.": "Codex 未及时刷新模型目录，已改用缓存的目录。",
+  "Relay environment health check reported offline": "中继环境健康检查报告为离线",
+  "Managed endpoint health request failed.": "托管端点健康检查请求失败。"
+}

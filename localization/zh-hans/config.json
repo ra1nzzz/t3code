@@ -1,0 +1,444 @@
+{
+  "_readme": "T3 Code 汉化词条。dict=精确文本匹配(大小写敏感)，patterns=[正则,替换](可含 $1)，menu=原生菜单(@role / !label)，skip=不翻译的 DOM 选择器，attrs=会翻译的属性。改完这个文件重启或切换页面即生效，无需重新打包 app.asar。",
+  "skip": [
+    "code",
+    "pre",
+    "kbd",
+    "samp",
+    "textarea",
+    "input",
+    "select",
+    "option",
+    "script",
+    "style",
+    "[contenteditable]",
+    "[data-testid=\"composer-editor\"]",
+    "[role=\"code\"]",
+    "[role=\"textbox\"]",
+    "[role=\"log\"]",
+    ".whitespace-pre-wrap",
+    "[class*=\"xterm\"]"
+  ],
+  "attrSkip": [
+    "code",
+    "pre",
+    "kbd",
+    "samp",
+    "textarea",
+    "script",
+    "style",
+    "[contenteditable]",
+    "[data-testid=\"composer-editor\"]",
+    "[role=\"code\"]",
+    "[role=\"textbox\"]",
+    "[role=\"log\"]",
+    ".font-mono",
+    ".whitespace-pre-wrap",
+    "[class*=\"xterm\"]"
+  ],
+  "attrs": [
+    "placeholder",
+    "title",
+    "aria-label"
+  ],
+  "patterns": [
+    [
+      "^Project scope: (.*)$",
+      "项目范围：$1"
+    ],
+    [
+      "^Environment scope: (.*)$",
+      "环境范围：$1"
+    ],
+    [
+      "^Applying settings for (.*)$",
+      "正在为 $1 应用设置"
+    ],
+    [
+      "^(\\d+) files changed$",
+      "$1 个文件已变更"
+    ],
+    [
+      "^(\\d+) file changed$",
+      "$1 个文件已变更"
+    ],
+    [
+      "^(\\d+) changes$",
+      "$1 处变更"
+    ],
+    [
+      "^Edit shortcut for (.*): (.*)$",
+      "编辑 $1 的快捷键：$2"
+    ],
+    [
+      "^Edit when clause for (.*)$",
+      "编辑 $1 的条件表达式"
+    ],
+    [
+      "^Use (T3 Code|T3 Chat|Grove|Ocean|Ember|Iris) light mode$",
+      "使用 $1 浅色模式"
+    ],
+    [
+      "^Use (T3 Code|T3 Chat|Grove|Ocean|Ember|Iris) dark mode$",
+      "使用 $1 深色模式"
+    ],
+    [
+      "^Use (T3 Code|T3 Chat|Grove|Ocean|Ember|Iris) theme$",
+      "使用 $1 主题"
+    ],
+    [
+      "^Duplicate (T3 Code|T3 Chat|Grove|Ocean|Ember|Iris)$",
+      "创建 $1 的副本"
+    ],
+    [
+      "^Add (.*) to favorites$",
+      "将 $1 加入收藏"
+    ],
+    [
+      "^Move (.*) up$",
+      "将 $1 上移"
+    ],
+    [
+      "^Move (.*) down$",
+      "将 $1 下移"
+    ],
+    [
+      "^Show (.*) in the model picker$",
+      "在模型选择器中显示 $1"
+    ],
+    [
+      "^Worked for (.*)$",
+      "工作用时 $1"
+    ],
+    [
+      "^New thread in (.*)$",
+      "在 $1 新建线程"
+    ],
+    [
+      "^Skill (.*)\\. Show details$",
+      "技能 $1。查看详情"
+    ],
+    [
+      "^Thread: Jump: (\\d+)$",
+      "线程：跳转：$1"
+    ],
+    [
+      "^Model Picker: Jump: (\\d+)$",
+      "模型选择器：跳转：$1"
+    ],
+    [
+      "^This link doesn't point to a page in (.*)$",
+      "该链接不指向 $1 中的页面"
+    ],
+    [
+      "^Select (.*)$",
+      "选择 $1"
+    ],
+    [
+      "^Enable (.*)$",
+      "启用 $1"
+    ],
+    [
+      "^Authenticated · (.*)$",
+      "已认证 · $1"
+    ],
+    [
+      "^Fast mode · (.*)$",
+      "快速模式 · $1"
+    ],
+    [
+      "^Average CPU (.*), peak CPU (.*)$",
+      "平均 CPU $1，峰值 CPU $2"
+    ],
+    [
+      "^Collapse (.*)$",
+      "折叠 $1"
+    ],
+    [
+      "^Expand (.*)$",
+      "展开 $1"
+    ],
+    [
+      "^Child process (.*)$",
+      "子进程 $1"
+    ],
+    [
+      "^Root process (.*)$",
+      "根进程 $1"
+    ],
+    [
+      "^(.*) availability$",
+      "$1 可用性"
+    ],
+    [
+      "^Toggle (.*) details$",
+      "切换 $1 详情"
+    ],
+    [
+      "^([\\d.]+) (B|KB|MB|GB|TB) combined process peaks$",
+      "进程峰值合计 $1 $2"
+    ],
+    [
+      "^([\\d.]+) (B|KB|MB|GB|TB) observed$",
+      "观测值 $1 $2"
+    ],
+    [
+      "^([\\d.]+) (bytes|字节) observed$",
+      "观测值 $1 $2"
+    ],
+    [
+      "^([\\d.]+)(ms|s|min|h) observed CPU time$",
+      "观测 CPU 时间 $1$2"
+    ],
+    [
+      "^(\\d+)/(\\d+) retained$",
+      "保留 $1/$2"
+    ],
+    [
+      "^(\\d+) removed, (\\d+) kept$",
+      "已移除 $1 个，保留 $2 个"
+    ],
+    [
+      "^(\\d+) second(s)?$",
+      "$1 秒"
+    ],
+    [
+      "^(\\d+) minute(s)?$",
+      "$1 分钟"
+    ],
+    [
+      "^(\\d+) hour(s)?$",
+      "$1 小时"
+    ],
+    [
+      "^(\\d+) day(s)?$",
+      "$1 天"
+    ],
+    [
+      "^(\\d+) client(s)?$",
+      "$1 个客户端"
+    ],
+    [
+      "^(\\d+)s$",
+      "$1 秒"
+    ],
+    [
+      "^(\\d+)m$",
+      "$1 分钟"
+    ],
+    [
+      "^(\\d+)h$",
+      "$1 小时"
+    ],
+    [
+      "^(\\d+)d$",
+      "$1 天"
+    ],
+    [
+      "^(\\d+) bytes$",
+      "$1 字节"
+    ],
+    [
+      "^Tunnel connected · (.*)$",
+      "隧道已连接 · $1"
+    ],
+    [
+      "^Support for (.*) is coming soon\\.$",
+      "暂不支持 $1，即将推出。"
+    ],
+    [
+      "^No tasks match (.*)$",
+      "没有匹配 $1 的计划任务"
+    ],
+    [
+      "^(\\d+) changes?$",
+      "$1 处变更"
+    ],
+    [
+      "^Checked (.*)$",
+      "上次检查：$1"
+    ],
+    [
+      "^Reconnect (.*) to view its scheduled tasks\\.$",
+      "重新连接 $1 以查看其定时任务。"
+    ],
+    [
+      "^Connected to (.*)$",
+      "已连接到 $1"
+    ],
+    [
+      "^Disconnected from (.*)$",
+      "已与 $1 断开连接"
+    ],
+    [
+      "^(\\d+)s ago$",
+      "$1 秒前"
+    ],
+    [
+      "^(\\d+)m ago$",
+      "$1 分钟前"
+    ],
+    [
+      "^(\\d+)h ago$",
+      "$1 小时前"
+    ],
+    [
+      "^(\\d+)d ago$",
+      "$1 天前"
+    ],
+    [
+      "^(\\d+)w ago$",
+      "$1 周前"
+    ],
+    [
+      "^event loop stalled for (.*)$",
+      "事件循环停顿 $1"
+    ],
+    [
+      "^(\\d+) ms$",
+      "$1 毫秒"
+    ],
+    [
+      "^(.*), Waiting, (.*)$",
+      "$1，等待中，$2"
+    ],
+    [
+      "^(.*), No project$",
+      "$1，无项目"
+    ],
+    [
+      "^(.*) \\(((?:Ctrl|Alt|Shift|Cmd|⌘)[^)]*)\\)$",
+      "$1（$2）"
+    ],
+    [
+      "^(.*) \\(([A-Za-z])\\)$",
+      "$1（$2）"
+    ],
+    [
+      "^↻ (.*)$",
+      "↻ $1"
+    ],
+    [
+      "^(\\d+)d (\\d+)h$",
+      "$1 天 $2 小时"
+    ],
+    [
+      "^(\\d+)h (\\d+)m$",
+      "$1 小时 $2 分钟"
+    ],
+    [
+      "^(\\d+)m (\\d+)s$",
+      "$1 分钟 $2 秒"
+    ],
+    [
+      "^(\\d+)y (\\d+)mo$",
+      "$1 年 $2 个月"
+    ],
+    [
+      "^(.*): (\\d+)% left, resets in ([^,]+), (\\d+)% of the window left, (\\d+) reset credits? banked$",
+      "$1：$2% 剩余，将在 $3后重置，时段剩余 $4%，已累积 $5 次重置额度"
+    ],
+    [
+      "^(.*): (\\d+)% left, resets in ([^,]+)$",
+      "$1：$2% 剩余，将在 $3后重置"
+    ],
+    [
+      "^(.*) did not answer the usage request\\.$",
+      "$1 未响应用量请求。"
+    ],
+    [
+      "^Settled (\\d+.*)$",
+      "已于 $1 结算"
+    ],
+    [
+      "^Snoozed (\\d+.*)$",
+      "已休眠 $1"
+    ],
+    [
+      "^yesterday at (.*)$",
+      "昨天 $1"
+    ],
+    [
+      "^Yesterday at (.*)$",
+      "昨天 $1"
+    ],
+    [
+      "^today at (.*)$",
+      "今天 $1"
+    ],
+    [
+      "^Today at (.*)$",
+      "今天 $1"
+    ],
+    [
+      "^Thread actions for (.*)$",
+      "线程操作：$1"
+    ],
+    [
+      "^Worktree actions for (.*)$",
+      "工作树操作：$1"
+    ],
+    [
+      "^Project actions for (.*)$",
+      "项目操作：$1"
+    ],
+    [
+      "^(\\d+) processes$",
+      "$1 个进程"
+    ],
+    [
+      "^(\\d+) process$",
+      "$1 个进程"
+    ],
+    [
+      "^(\\d+) starts · (\\d+) exits$",
+      "启动 $1 次 · 退出 $2 次"
+    ],
+    [
+      "^(\\d+) starts$",
+      "启动 $1 次"
+    ],
+    [
+      "^(\\d+) exits$",
+      "退出 $1 次"
+    ]
+  ],
+  "menu": {
+    "!File": "文件",
+    "!Edit": "编辑",
+    "!View": "视图",
+    "!Window": "窗口",
+    "!Help": "帮助",
+    "!Speech": "语音",
+    "!Reload": "重新加载",
+    "!Force Reload": "强制重新加载",
+    "!Toggle Developer Tools": "切换开发者工具",
+    "!Actual Size": "实际大小",
+    "!Zoom In": "放大",
+    "!Zoom Out": "缩小",
+    "!Toggle Full Screen": "切换全屏",
+    "!Check for Updates...": "检查更新…",
+    "!Settings...": "设置…",
+    "!Paste as Text": "纯文本粘贴",
+    "@about": "关于",
+    "@close": "关闭",
+    "@copy": "复制",
+    "@cut": "剪切",
+    "@delete": "删除",
+    "@hide": "隐藏",
+    "@hideOthers": "隐藏其他",
+    "@minimize": "最小化",
+    "@paste": "粘贴",
+    "@pasteAndMatchStyle": "粘贴并匹配样式",
+    "@quit": "退出",
+    "@redo": "重做",
+    "@reload": "重新加载",
+    "@resetZoom": "实际大小",
+    "@selectAll": "全选",
+    "@toggleDevTools": "切换开发者工具",
+    "@togglefullscreen": "切换全屏",
+    "@undo": "撤销",
+    "@unhide": "显示全部",
+    "@zoom": "缩放"
+  }
+}

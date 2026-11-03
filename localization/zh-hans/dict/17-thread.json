@@ -1,0 +1,20 @@
+{
+  "Load earlier turns": "加载更早的消息",
+  "Un-settle": "取消结算",
+  "Settle": "结算",
+  "Settled": "已结算",
+  "Ask anything, @tag files/folders, $use skills, or / for commands": "尽管提问，用 @ 标记文件/文件夹，用 $ 使用技能，或用 / 打开命令",
+  "Show full message": "显示完整消息",
+  "Copy message": "复制消息",
+  "Fork from this response": "从此回复分叉",
+  "Copy prompt link": "复制提示词链接",
+  "Previous turn": "上一轮",
+  "Next turn": "下一轮",
+  "Submit message": "发送消息",
+  "Runtime mode": "运行时模式",
+  "Thread breadcrumb": "线程面包屑",
+  "Workspace": "工作区",
+  "Full access": "完全访问",
+  "Ultra Fast": "极速",
+  "Thread Panel: Toggle": "线程面板：切换"
+}

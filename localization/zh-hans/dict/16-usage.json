@@ -1,0 +1,20 @@
+{
+  "Usage metric": "用量指标",
+  "Usage period": "用量时段",
+  "Usage breadcrumb": "用量面包屑",
+  "Refresh limits": "刷新限额",
+  "All providers": "全部提供商",
+  "Limits": "限额",
+  "Past 24h": "过去 24 小时",
+  "Ahead of pace: spending faster than the window elapses": "超前于节奏：花费速度快于时段推进速度",
+  "Behind pace: spending slower than the window elapses": "落后于节奏：花费速度慢于时段推进速度",
+  "left": "剩余",
+  "reset": "重置",
+  "credit": "额度",
+  "banked": "已累积",
+  "Segment": "区段",
+  "Cost": "费用",
+  "Tokens": "Token",
+  "No usage data": "暂无用量数据",
+  "Codex did not answer the usage request.": "Codex 未响应用量请求。"
+}

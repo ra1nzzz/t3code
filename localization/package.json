@@ -1,0 +1,15 @@
+{
+  "name": "t3code-zh-hans",
+  "private": true,
+  "type": "module",
+  "description": "T3 Code 桌面版简体中文运行时汉化覆盖层",
+  "scripts": {
+    "build": "node dict.mjs build",
+    "check": "node test-lookup.mjs",
+    "patch:dry-run": "node install.mjs",
+    "patch:apply": "node install.mjs --apply"
+  },
+  "devDependencies": {
+    "@electron/asar": "^4.3.1"
+  }
+}
